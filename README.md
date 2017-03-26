@@ -23,4 +23,4 @@ Once those updates have been made, create a recurring event on the Calendar appl
 The script will save a csv of the data, joining it with the previous data and removing duplicate data. My advice is to run the script once a week. A .txt will record the time each time the script is run.
 
 ### Latent Dirichlet Allocation model
-This data was pulled to test out topic analysis algorithm using Twitter data. Credit goes to [this blog post](https://eight2late.wordpress.com/2015/09/29/a-gentle-introduction-to-topic-modeling-using-r/) for showing me how to do this. I would recommend grouping documents by date (either week or month) to identify topics from Twitter discussions over time.
+This data was pulled to test out a topic analysis algorithm using Twitter data. Credit goes to [this blog post](https://eight2late.wordpress.com/2015/09/29/a-gentle-introduction-to-topic-modeling-using-r/) for showing me how to do this. I would recommend grouping documents by date (either week or month) to identify topics from Twitter discussions over time.
