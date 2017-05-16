@@ -121,7 +121,7 @@ ldaOut.topics <- as.matrix(topics(ldaOut))
 
 #top 6 terms in each topic
 ldaOut.terms <- as.matrix(terms(ldaOut,6))
-#data %>% filter(grepl("([Ee]ric[Ll]ip[Tt]on)",data$text)) %>% View()
+
 
 #probabilities associated with each topic assignment
 topicProbabilities <- as.data.frame(ldaOut@gamma)
